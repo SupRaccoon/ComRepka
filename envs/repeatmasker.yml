@@ -1,0 +1,8 @@
+name: comrepka-repeatmasker
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - repeatmasker=4.2.3
+  - hmmer=3.3.2

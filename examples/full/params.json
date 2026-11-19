@@ -1,0 +1,14 @@
+{
+  "genomes": "examples/full/genomes.tsv",
+  "pairs": "examples/full/pairs.tsv",
+  "from": "genome",
+  "until": "statuses",
+  "outdir": "results/example-full",
+  "annotate_targets": false,
+  "rm_engine": "hmmer",
+  "rm_sensitivity": "s",
+  "rm_cpus": 2,
+  "rm_reference_id": "Dfam-3.9_2025-03-10_curated_partitions-0-7",
+  "minimap_preset": "asm10",
+  "minimap_cpus": 2
+}

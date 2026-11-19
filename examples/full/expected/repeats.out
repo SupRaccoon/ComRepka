@@ -1,0 +1,35 @@
+  bit   perc perc perc  query     position in query     matching      repeat             position in repeat
+score   div. del. ins.  sequence  begin end    (left)   repeat        class/family     begin  end    (left)  ID
+
+   25   37.4 10.7  2.3  rm_test     270   428 (19572) C MIR3          SINE/MIR           (23)    185     14   1  
+   20   35.6  8.1  9.5  rm_test     439   587 (19413) C L1M5          LINE/L1             (4)   6120   5974   2  
+   70   34.2  1.9  3.0  rm_test     799  1003 (18997) C L1ME4c        LINE/L1           (298)   5785   5583   3  
+   86   12.9  0.0  0.0  rm_test    1071  1171 (18829) + Ricksha_0     DNA/MULE-MuDR         1    101 (1632)   4 *
+  287   14.2  9.7  0.0  rm_test    1168  1539 (18461) + Ricksha_0     DNA/MULE-MuDR      1325   1732    (1)   5  
+   26   29.5 23.7  0.1  rm_test    1649  1744 (18256) + MIRb          SINE/MIR             40    152   (56)   6  
+   49   22.2  0.0  1.2  rm_test    1987  2068 (17932) + MER46C        DNA/TcMar-Tigger    258    338    (0)   7  
+   56   31.2  4.4  0.0  rm_test    2342  2501 (17499) + Charlie20a    DNA/hAT-Charlie     170    336  (471)   8  
+   32    4.4  0.0  6.0  rm_test    3374  3426 (16574) + (TACACACTCA)n Simple_repeat         1     50    (0)   9  
+   29   26.2  3.8  2.8  rm_test    3581  3686 (16314) + Charlie20a    DNA/hAT-Charlie     432    538  (269)  10  
+  330    8.7  0.0  0.0  rm_test    3691  3978 (16022) C AluSg         SINE/Alu           (17)    293      6  11  
+   48   32.7  1.2  2.5  rm_test    3996  4155 (15845) C L1MD3         LINE/L1             (5)   7990   7833  12  
+  339   25.5  9.1  1.2  rm_test    6282  6849 (13151) C L1MD3         LINE/L1           (238)   7757   7150  12  
+  318   11.5  2.3  0.3  rm_test    6852  7155 (12845) C AluSq         SINE/Alu            (3)    310      1  13  
+  339   25.5  9.1  1.2  rm_test    7156  7224 (12776) C L1MD3         LINE/L1           (847)   7148   7070  12  
+  143   15.9  0.0  0.0  rm_test    7231  7420 (12580) C AluSx4        SINE/Alu            (0)    310    122  14 *
+  305   24.5  7.0  3.6  rm_test    7420  7496 (12504) C L1MD3         LINE/L1           (814)   7068   6992  12  
+   31    7.9  0.0  0.0  rm_test    7497  7536 (12464) + (TG)n         Simple_repeat         1     40    (0)  15  
+  305   24.5  7.0  3.6  rm_test    7537  7971 (12029) C L1MD3         LINE/L1           (892)   6990   6539  12  
+   14   29.5  0.0  1.3  rm_test    7971  8049 (11951) C L1MD3         LINE/L1          (1376)   6619   6542  12 *
+  218   31.7  8.4 11.5  rm_test    8052  8800 (11200) C L1MD3         LINE/L1          (1336)   6659   5932  16  
+  525   15.4  3.8  0.8  rm_test    9822 10434  (9566) C MER39B        LTR/ERV1           (22)    631      1  17  
+   21   36.2 22.8  3.6  rm_test   10686 10874  (9126) C MLT1M         LTR/ERVL-MaLR      (77)    595    372  18  
+  343    4.4  0.7  0.0  rm_test   11113 11409  (8591) + AluY          SINE/Alu              1    299   (12)  19  
+   16   28.7 29.7  0.0  rm_test   11596 11696  (8304) C L2            LINE/L2           (473)   2946   2816  20 *
+  204   29.0  9.0  1.5  rm_test   11662 12426  (7574) + L1ME1         LINE/L1            4927   5756  (423)  21  
+   57   28.5 26.2  0.0  rm_test   12512 12739  (7261) + L1ME1         LINE/L1            5884   6198 (1844)  21  
+   18   10.4  4.4  4.4  rm_test   14271 14315  (5685) + GA-rich       Low_complexity        1     45    (0)  22  
+   83   18.6  7.7  2.7  rm_test   14634 14920  (5080) + (TCTA)n       Simple_repeat         1    301    (0)  23  
+  237   19.6  0.0  0.7  rm_test   18216 18490  (1510) + AluJr4        SINE/Alu             30    302   (10)  24  
+   13   22.6  2.0  4.1  rm_test   18496 18545  (1455) + A-rich        Low_complexity        1     49    (0)  25  
+  331    9.6  0.0  0.0  rm_test   18726 19026   (974) + AluSq2        SINE/Alu              1    301   (12)  26  

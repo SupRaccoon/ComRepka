@@ -1,0 +1,3 @@
+group_id	chrom	group_start	group_end	blocked_start	blocked_end	left_flank_start	left_flank_end	right_flank_start	right_flank_end	n_repeats_inside	repeat_ids_inside
+rm_test:9821-10434	rm_test	9821	10434	9821	10434	8800	9871	10384	15434	1	MER39B
+rm_test:10685-10874	rm_test	10685	10874	10685	10874	8800	10735	10824	15874	1	MLT1M

@@ -1,0 +1,3 @@
+genome_id	fasta	species	annotation	annotation_format	flank_fasta	flank_table	chrom_map
+genome_A	data/genome_A.fa		data/genome_A.bed	bed6	data/genome_A.flanks.fa	data/genome_A.flanks.tsv	
+genome_B	data/genome_B.fa		data/genome_B.bed	bed6			

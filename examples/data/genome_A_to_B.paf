@@ -1,0 +1,4 @@
+chrA:6000-6100|chrA|left|L=5050|left:1000-6050|block:6000-6100|nrt:immediate_nrt|nrt_len:5000|overhang:50	5050	0	5050	+	chrB	40000	0	5050	5050	5050	60	tp:A:P	cg:Z:5050M	cs:Z::5050	de:f:0
+chrA:6000-6100|chrA|right|L=5050|right:6050-11100|block:6000-6100|overhang:50	5050	0	5050	+	chrB	40000	5050	10100	5050	5050	60	tp:A:P	cg:Z:5050M	cs:Z::5050	de:f:0
+chrA:12000-12100|chrA|left|L=5050|left:7000-12050|block:12000-12100|nrt:immediate_nrt|nrt_len:5000|overhang:50	5050	0	5050	-	chrB	40000	25050	30100	5050	5050	60	tp:A:P	cg:Z:5050M	cs:Z::5050	de:f:0
+chrA:12000-12100|chrA|right|L=5050|right:12050-17100|block:12000-12100|overhang:50	5050	0	5050	-	chrB	40000	20000	25050	5050	5050	60	tp:A:P	cg:Z:5050M	cs:Z::5050	de:f:0

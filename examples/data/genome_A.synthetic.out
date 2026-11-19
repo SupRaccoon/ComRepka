@@ -1,0 +1,7 @@
+   SW  perc perc perc  query position in query  matching repeat
+score  div. del. ins.  sequence begin end (left) strand repeat class/family begin end (left) ID
+
+1000 0.0 0.0 0.0 chrA 2001 2100 (15900) + Background_LINE LINE/L1 1 100 (0) 1
+1000 0.0 0.0 0.0 chrA 6001 6100 (11900) + Repeat_A LTR/ERV1 1 100 (0) 2
+1000 0.0 0.0 0.0 chrA 12001 12100 (5900) C Repeat_B LTR/ERV1 1 100 (0) 3
+1000 0.0 0.0 0.0 chrA 17001 17100 (900) + Repeat_C LTR/ERV1 1 100 (0) 4

@@ -1,0 +1,2 @@
+source	target	preset	paf	statuses	hal	hal_source	hal_target	hal_source_chrom_map	hal_target_chrom_map
+genome_A	genome_B	asm10	data/genome_A_to_B.paf						

@@ -1,0 +1,20 @@
+# platform: linux-64
+# Historical minimap2 2.22 baseline from 2026-11-17.
+# The current workflow uses minimap2 2.31 in envs/core.yml instead.
+# Package records from the environment used for local validation.
+# Recreate with: conda create --prefix PATH --file THIS_FILE
+# Reference databases and non-Conda packages are not included.
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda#a9f577daf3de00bca7c3c76c0ecbd1de
+https://conda.anaconda.org/bioconda/linux-64/k8-1.2-h6618dc6_3.tar.bz2#7121e62d9fcd82071086350b7ddc846f
+https://conda.anaconda.org/conda-forge/noarch/kernel-headers_linux-64-4.18.0-he073ed8_9.conda#86d9cba083cd041bfbf242a01a7a1999
+https://conda.anaconda.org/conda-forge/linux-64/libgcc-16.2.0-ha9f2e26_7.conda#735629b400b70eeab21a2ba8f5b1c2ce
+https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-16.2.0-h69a702a_7.conda#2005515ac9340f816fb2ac7e83afe553
+https://conda.anaconda.org/conda-forge/linux-64/libgomp-16.2.0-he0feb66_7.conda#d904c7ddd95e026254b4b80808ee9e12
+https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-16.2.0-h934c35e_7.conda#9b6707e0caca917fa6ea9ee473f37a5d
+https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.2.13-h4ab18f5_6.conda#27329162c0dc732bcf67a4e0cd488125
+https://conda.anaconda.org/bioconda/linux-64/minimap2-2.22-h5bf99c6_0.tar.bz2#04f620368bd69606d3b7abc45281fda2
+https://conda.anaconda.org/conda-forge/noarch/python_abi-3.12-9_cp312.conda#4c32076993e6270825441d059ab5c18b
+https://conda.anaconda.org/conda-forge/noarch/sysroot_linux-64-2.28-h4ee821c_9.conda#13dc3adbc692664cd3beabd216434749
+https://conda.anaconda.org/conda-forge/noarch/tzdata-2026e-h5d301ff_0.conda#abccc3810d2b97e570dee487f2b46e38
+https://conda.anaconda.org/conda-forge/linux-64/zlib-1.2.13-h4ab18f5_6.conda#559d338a4234c2ad6e676f460a093e67

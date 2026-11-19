@@ -1,0 +1,63 @@
+{
+  "source_assembly": "GCF_009914755.1 (T2T-CHM13v2.0)",
+  "source_contig": "NC_060925.1",
+  "source_start_0based": 20000,
+  "source_end_exclusive": 40000,
+  "source_length_bp": 20000,
+  "source_fasta_header": "rm_test",
+  "target_description": "Identical 20000 bp sequence with FASTA header target_test; a technical positive control, not a different biological genome.",
+  "reference": {
+    "database": "Dfam",
+    "version": "3.9",
+    "release_date": "2025-03-10",
+    "partitions": [
+      0,
+      7
+    ],
+    "files": [
+      "dfam39_full.0.h5",
+      "dfam39_full.7.h5"
+    ],
+    "selection": "curated families",
+    "database_checksums": "Not recorded in the original validation; verify official checksums when downloading."
+  },
+  "validation": {
+    "date": "2026-11-17",
+    "nextflow": "25.10.2",
+    "executor": "local",
+    "processes": [
+      "MINIMAP_INDEX",
+      "FASTA_INDEX",
+      "REPEATMASKER",
+      "PREPARE_REPEAT_ANNOTATION",
+      "PREPARE_FLANKS",
+      "MINIMAP_ALIGN",
+      "CLASSIFY_ALIGNMENTS"
+    ],
+    "all_processes_completed": true,
+    "final_table_rows": 2,
+    "direct_output_comparison": "repeats.bed, flanks.tsv, flanks.fa, targets.tsv, alignments.paf and statuses.tsv matched direct execution; RepeatMasker annotation records matched after whitespace normalization.",
+    "limits": [
+      "Identical source and target sequences",
+      "This provenance entry documents only the dated 20 kb local example.",
+      "The archived outputs use samtools 1.22.1 and minimap2 2.22; current environment versions are specified separately."
+    ],
+    "tool_versions": {
+      "samtools": "1.22.1",
+      "minimap2": "2.22-r1101",
+      "RepeatMasker": "4.2.3",
+      "HMMER": "3.3.2"
+    }
+  },
+  "sha256": {
+    "input/source.fa": "92a342bb25a31e275e612c4cbd3d8275d97f685271fc5f19d7ef671de5eddb7f",
+    "input/target.fa": "2d05df85c85aecc2a66031a24307bd750eacd4bd8355998feb558e4e7fa42df8",
+    "expected/alignments.paf": "68a3772070b13681d6fce61b7c1c0d264e722cf9ec19b060eba111859159c524",
+    "expected/flanks.fa": "3ff390a1daa8082a50768cc44fb675230b17fed070cef18b4be5a101d70df354",
+    "expected/flanks.tsv": "50b9f841dc9fcc2617acf4d10db41f87a571b9ad58844b4b8687b1a2777413d8",
+    "expected/repeats.bed": "3d76714509f08d553500d4e40aa336f2faf23d91dd48cf0150619aed7e0ccc66",
+    "expected/repeats.out": "08d322c5d2abb915ef0b5fb70ccadcae7babf50f4b89839dc6efc8d1bf792fe6",
+    "expected/statuses.tsv": "f7ae5a1e5c030773352b81fbac0f323fcd636e202530636d431b9d167af7733b",
+    "expected/targets.tsv": "04f4f617e564c9b48f6f8b70f536ba7b17b1bc568c192751c0be9cd42e54383b"
+  }
+}
